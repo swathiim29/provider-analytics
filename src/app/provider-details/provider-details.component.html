@@ -1,0 +1,59 @@
+<div class="container ">
+  <h3>High Rank Providers</h3>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Provider Id</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let provider of highRankProviders">
+    <td>
+      <a href="#">{{ provider.provNumb }}</a>
+    </td>
+    <td>
+      {{ provider.name }}
+    </td>
+    <td>
+      {{ provider.address }}
+    </td>
+    <td>
+      {{ provider.rating }}
+    </td>
+  </tr>
+</table>
+
+<div class="container">
+  <h3>
+    Low Rank Providers&nbsp;&nbsp;<button class="btn btn-primary">
+      Email Details
+    </button>
+  </h3>
+</div>
+<table class="table table-striped w">
+  <thead>
+    <tr>
+      <th>Provider Id</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let provider of lowRankProviders">
+    <td>
+      <a href="#">{{ provider.provNumb }}</a>
+    </td>
+    <td>
+      {{ provider.name }}
+    </td>
+    <td>
+      {{ provider.address }}
+    </td>
+    <td>
+      {{ provider.rating }}
+    </td>
+  </tr>
+</table>

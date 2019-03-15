@@ -1,0 +1,27 @@
+<div class="Container">
+  <h3>
+    Rejection/Denial Details&nbsp;&nbsp;<button class="btn btn-primary">
+      Email Details
+    </button>
+  </h3>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th># of Impacted Claims</th>
+      <th>Rejection/Denial Reason</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let claim of claimDetails">
+    <td>
+      <a href="#">{{ claim.noOfClaims }}</a>
+    </td>
+    <td>
+      {{ claim.rejectionDetails }}
+    </td>
+  </tr>
+</table>
+
+<div class="container border">
+  <img src="../../assets/rejection_pi_Chart.jpg" class="w-100 h-50" />
+</div>

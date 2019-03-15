@@ -1,0 +1,22 @@
+[
+  {
+    "noOfClaims": "100",
+    "rejectionDetails": "Service From Date after Service To Date"
+  },
+  {
+    "noOfClaims": "70",
+    "rejectionDetails": "Invalid Provider Id"
+  },
+  {
+    "noOfClaims": "60",
+    "rejectionDetails": "Invalid service"
+  },
+  {
+    "noOfClaims": "55",
+    "rejectionDetails": "Claim not filed timely"
+  },
+  {
+    "noOfClaims": "45",
+    "rejectionDetails": "Preauthorization not done"
+  }
+]
