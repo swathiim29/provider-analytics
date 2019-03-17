@@ -7,7 +7,7 @@
       <th>Provider Id</th>
       <th>Name</th>
       <th>Address</th>
-      <th>Rating</th>
+      <th>Rating<app-popover></app-popover></th>
     </tr>
   </thead>
   <tr *ngFor="let provider of highRankProviders">
@@ -21,7 +21,7 @@
       {{ provider.address }}
     </td>
     <td>
-      {{ provider.rating }}
+      {{ provider.rating }}<span><app-star-rating [currentRate]="provider.rating"></app-star-rating></span>
     </td>
   </tr>
 </table>
@@ -39,7 +39,7 @@
       <th>Provider Id</th>
       <th>Name</th>
       <th>Address</th>
-      <th>Rating</th>
+      <th>Rating<app-popover></app-popover></th>
     </tr>
   </thead>
   <tr *ngFor="let provider of lowRankProviders">
@@ -53,7 +53,7 @@
       {{ provider.address }}
     </td>
     <td>
-      {{ provider.rating }}
+      {{ provider.rating }}<span><app-star-rating [currentRate]="provider.rating"></app-star-rating></span>
     </td>
   </tr>
 </table>

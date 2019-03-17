@@ -1,0 +1,9 @@
+<a [ngbPopover]="popOver" triggers="mouseenter:mouseleave" popoverTitle="Criteria for Rating" placement="right">
+           <i class="fa fa-info-circle" style="color:black"></i>
+      </a>
+
+      <ng-template #popOver>
+          <div>1.No.of compliants</div>
+          <div>2.No.of failed claims</div>
+          <div>3.No.of missed SLAs</div>
+        </ng-template>
