@@ -1,0 +1,82 @@
+<h3>
+  Provider Details&nbsp;&nbsp;
+</h3>
+<br />
+<div class="Container">
+  <div class="row d-flex justify-content-around">
+    <div class="col-5">
+      <table class="table table-bordered">
+        <tr>
+          <td><b> Provider Id</b></td>
+          <td>
+            {{ provider?.provNumb }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Provider Name</b>
+          </td>
+          <td>
+            {{ provider?.name }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b> Address</b>
+          </td>
+          <td>
+            {{ provider?.address }}
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <b>Rating</b>
+          </td>
+          <td>
+            {{ provider?.rating }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Total Claims</b>
+          </td>
+          <td>
+            {{ provider?.claimsSubmitted }}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b>Claims Denied/Rejected</b>
+          </td>
+          <td>
+            {{ provider?.claimsRejected }}
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th># of Impacted Claims</th>
+            <th>Rejection/Denial Reason</th>
+          </tr>
+        </thead>
+        <tr *ngFor="let claim of claimDetails">
+          <td>
+            <a href="#">{{ claim?.noOfClaims }}</a>
+          </td>
+          <td>
+            {{ claim?.rejectionDetails }}
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br />
+
+  <div class="container border">
+    <img src="../../assets/rejection_pi_Chart.jpg" class="w-100 h-50" />
+  </div>
+</div>

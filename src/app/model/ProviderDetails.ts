@@ -3,4 +3,6 @@ export class ProviderDetails {
   rating: number;
   provNumb: string;
   address: string;
+  claimsSubmitted: number;
+  claimsRejected: number;
 }

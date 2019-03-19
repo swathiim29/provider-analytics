@@ -12,16 +12,21 @@
   </thead>
   <tr *ngFor="let provider of highRankProviders">
     <td>
-      <a href="#">{{ provider.provNumb }}</a>
+      <a [routerLink]="['/providerClaimDetails', provider.provNumb]"
+        >{{ provider?.provNumb }}
+      </a>
     </td>
     <td>
-      {{ provider.name }}
+      {{ provider?.name }}
     </td>
     <td>
-      {{ provider.address }}
+      {{ provider?.address }}
     </td>
     <td>
-      {{ provider.rating }}<span><app-star-rating [currentRate]="provider.rating"></app-star-rating></span>
+      {{ provider?.rating
+      }}<span
+        ><app-star-rating [currentRate]="provider.rating"></app-star-rating
+      ></span>
     </td>
   </tr>
 </table>
@@ -44,7 +49,9 @@
   </thead>
   <tr *ngFor="let provider of lowRankProviders">
     <td>
-      <a href="#">{{ provider.provNumb }}</a>
+      <a [routerLink]="['/providerClaimDetails', provider.provNumb]">{{
+        provider.provNumb
+      }}</a>
     </td>
     <td>
       {{ provider.name }}
@@ -53,7 +60,10 @@
       {{ provider.address }}
     </td>
     <td>
-      {{ provider.rating }}<span><app-star-rating [currentRate]="provider.rating"></app-star-rating></span>
+      {{ provider.rating
+      }}<span
+        ><app-star-rating [currentRate]="provider.rating"></app-star-rating
+      ></span>
     </td>
   </tr>
 </table>

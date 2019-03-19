@@ -3,42 +3,56 @@
     "name": "Sam",
     "rating": 10,
     "provNumb": "HW23112",
-    "address": "Okhlahama"
+    "address": "Okhlahama",
+    "claimsSubmitted": 6320,
+    "claimsRejected": 27
   },
   {
     "name": "Tim",
     "rating": 9.5,
     "provNumb": "HW23113",
-    "address": "Illinois"
+    "address": "Illinois",
+    "claimsSubmitted": 3121,
+    "claimsRejected": 30
   },
   {
     "name": "Mark",
     "rating": 9.5,
     "provNumb": "HW23117",
-    "address": "Montana"
+    "address": "Montana",
+    "claimsSubmitted": 3121,
+    "claimsRejected": 30
   },
   {
     "name": "Jesse",
     "rating": 9,
     "provNumb": "HW23119",
-    "address": "Texas"
+    "address": "Texas",
+    "claimsSubmitted": 3000,
+    "claimsRejected": 32
   },
   {
     "name": "Jim",
     "rating": 9,
     "provNumb": "HW23116",
-    "address": "Illinois"
+    "address": "Illinois",
+    "claimsSubmitted": 3000,
+    "claimsRejected": 32
   },
   {
     "name": "John",
     "rating": 1.5,
     "provNumb": "HW23118",
-    "address": "New Mexico"
+    "address": "New Mexico",
+    "claimsSubmitted": 3000,
+    "claimsRejected": 700
   },
   {
     "name": "Sam",
     "rating": 1,
-    "provNumb": "HW23112",
-    "address": "Tulsa"
+    "provNumb": "HW23166",
+    "address": "Tulsa",
+    "claimsSubmitted": 3000,
+    "claimsRejected": 750
   }
 ]

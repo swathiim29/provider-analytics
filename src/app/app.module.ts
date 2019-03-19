@@ -13,6 +13,7 @@ import { SideBarComponent } from "./side-bar/side-bar.component";
 import { HomeComponent } from './home/home.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
 import { PopoverComponent } from './popover/popover.component';
+import { ProviderClaimDetailsComponent } from './provider-claim-details/provider-claim-details.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PopoverComponent } from './popover/popover.component';
     SideBarComponent,
     HomeComponent,
     StarRatingComponent,
-    PopoverComponent
+    PopoverComponent,
+    ProviderClaimDetailsComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule ,NgbModule, AngularFontAwesomeModule],
   providers: [],

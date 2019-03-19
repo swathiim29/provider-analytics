@@ -1,0 +1,177 @@
+[
+  {
+    "provNumb": "HW23112",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "2",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "5",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "18",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23113",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "4",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "2",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "5",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "18",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23117",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "5",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "5",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "18",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23119",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "2",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "10",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "18",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23116",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "1",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "2",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "5",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "6",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "18",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23118",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "100",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "200",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "100",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "200",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "100",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  },
+  {
+    "provNumb": "HW23166",
+    "rejectedClaims": [
+      {
+        "noOfClaims": "150",
+        "rejectionDetails": "Service From Date after Service To Date"
+      },
+      {
+        "noOfClaims": "200",
+        "rejectionDetails": "Invalid Provider Id"
+      },
+      {
+        "noOfClaims": "200",
+        "rejectionDetails": "Invalid service"
+      },
+      {
+        "noOfClaims": "100",
+        "rejectionDetails": "Claim not filed timely"
+      },
+      {
+        "noOfClaims": "100",
+        "rejectionDetails": "Preauthorization not done"
+      }
+    ]
+  }
+]
